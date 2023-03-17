@@ -1,0 +1,6 @@
+plugin.tx_registeraddresshoneypot.settings {
+  # cat=plugin.tx_registeraddresshoneypot//a; type=int; label=Enable honey pot: Set this to 1 to enable the honey pot field
+  enableHoneyPot = 1
+  # cat=plugin.tx_registeraddresshoneypot//a; type=string; label=Honey pot field name: Name of the field to be rendered as honey pot
+  honeyPotFieldName = _hp
+}

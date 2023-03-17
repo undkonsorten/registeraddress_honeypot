@@ -1,0 +1,25 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+
+  Undkonsorten\RegisteraddressHoneypot\:
+    resource: '../Classes/*'
+
+  extbaseSettings.registeraddressHoneypot:
+    class: 'array'
+    factory:
+      - '@TYPO3\CMS\Extbase\Configuration\ConfigurationManager'
+      - 'getConfiguration'
+    arguments:
+      $configurationType: 'Settings'
+      $extensionName: 'RegisteraddressHoneypot'
+
+  Undkonsorten\RegisteraddressHoneypot\Event\RegisterAddressHoneypotEventListener:
+    tags:
+      - name: event.listener
+        identifier: 'registeraddress-honeypot-event'
+        event: AFM\Registeraddress\Event\InitializeCreateActionEvent
+    arguments:
+      $settings: '@extbaseSettings.registeraddressHoneypot'

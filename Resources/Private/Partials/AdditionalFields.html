@@ -1,0 +1,8 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/ViewHelpers"
+			data-namespace-typo3-fluid="true"
+			lang="en">
+<f:if condition="{settings.enableHoneyPot}">
+	<f:render section="Main" partial="Field/HoneyPot" arguments="{field:settings.honeyPotFieldName}" />
+</f:if>
+
+</html>

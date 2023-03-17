@@ -1,0 +1,29 @@
+{
+	"name": "undkonsorten/registeraddress-honeypot",
+	"type": "typo3-cms-extension",
+	"description": "Registeraddress connector with extbase honeypot",
+	"homepage": "https://www.undkonsorten.com",
+	"license": [
+		"GPL-2.0+"
+	],
+	"keywords": [
+		"registration",
+		"subscription",
+		"address"
+	],
+	"require": {
+		"typo3/cms-core": "^10.4 || ^11.5",
+		"afm/registeraddress": "^4.1.0",
+		"undkonsorten/typo3-extbase-honeypot": "^0.1.1"
+	},
+	"autoload": {
+		"psr-4": {
+			"Undkonsorten\\RegisteraddressHoneypot\\": "Classes/"
+		}
+	},
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "registeraddress_honeypot"
+		}
+	}
+}

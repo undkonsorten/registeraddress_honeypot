@@ -1,0 +1,11 @@
+plugin.tx_registeraddress.settings {
+  enableHoneyPot = {$plugin.tx_registeraddresshoneypot.settings.enableHoneyPot}
+  honeyPotFieldName = {$plugin.tx_registeraddresshoneypot.settings.honeyPotFieldName}
+}
+
+plugin.tx_registeraddress.view.partialRootPaths {
+  # Additional fields partial
+  12 = EXT:registeraddress_honeypot/Resources/Private/Partials/
+  # The honeypot partial itself
+  14 = EXT:extbase_honeypot/Resources/Private/Partials/
+}
