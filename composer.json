@@ -14,7 +14,7 @@
 	"require": {
 		"typo3/cms-core": "^10.4 || ^11.5 || ^12.4",
 		"afm/registeraddress": "^4.1.0 || ^5",
-		"undkonsorten/typo3-extbase-honeypot": "^0.1.1"
+		"undkonsorten/typo3-extbase-honeypot": "^1.0.0"
 	},
 	"autoload": {
 		"psr-4": {
