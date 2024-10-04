@@ -1,0 +1,8 @@
+plugin.tx_registeraddress._LOCAL_LANG {
+  default {
+    error.1663185337.newAddress._hp = An error occured.
+  }
+  de {
+    error.1663185337.newAddress._hp = Es ist ein Fehler aufgetreten.
+  }
+}
