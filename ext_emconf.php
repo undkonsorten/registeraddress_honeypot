@@ -15,7 +15,7 @@ $EM_CONF[$_EXTKEY] = [
     'version' => '1.1.1',
     'constraints' => [
         'depends' => [
-            'typo3' => '10.4.0 - 12.4.99',
+            'typo3' => '10.4.0 - 13.4.99',
             "registeraddress" => "4.1.0 - 6.99.99",
             "extbase_honeypot" => "0.1.1 - 0.1.99",
         ],
