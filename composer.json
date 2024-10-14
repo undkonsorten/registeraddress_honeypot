@@ -26,7 +26,7 @@
 			"extension-key": "registeraddress_honeypot"
 		},
 		"branch-alias": {
-			"dev-main": "1.1.x-dev"
+			"dev-main": "1.2.x-dev"
 		}
 	}
 }
